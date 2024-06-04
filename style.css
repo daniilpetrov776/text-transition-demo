@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.h-title {
+    font-size: 6vw;
+}
+
+.word {
+    position: absolute;
+    opacity: 0;
+    font-size: 6vw;
+}
+
+.letter {
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
